@@ -2948,6 +2948,9 @@ def _dispatch_tool(name: str, arguments: dict, user_id: int, db: Session) -> dic
     return {"error": f"Unknown tool: {name}"}
 
 
+
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # SERIALIZATION HELPERS
 # ─────────────────────────────────────────────────────────────────────────────
